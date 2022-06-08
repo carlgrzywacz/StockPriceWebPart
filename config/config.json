@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "stock-price-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/stockPrice/StockPriceWebPart.js",
+          "manifest": "./src/webparts/stockPrice/StockPriceWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StockPriceWebPartStrings": "lib/webparts/stockPrice/loc/{locale}.js"
+  }
+}
